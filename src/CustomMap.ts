@@ -13,7 +13,7 @@ export class CustomMap {
     this.googleMap = new google.maps.Map(document.getElementById(divId), {
       zoom: 1,
       backgroundColor: 'goldenrod',
-      center: { lat: 45, lng: 45 }
+      center: { lat: 0, lng: 0 }
     });
   }
 
